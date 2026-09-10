@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>肥东双龙商务大酒店 - 肥东商务住宿与宴会会议服务指南</title>
+<meta name="description" content="肥东双龙商务大酒店是位于合肥肥东的商务型酒店，提供客房住宿、商务会议、婚宴宴会、餐饮与停车等服务，本文介绍酒店定位、房型选择、宴会会议、交通位置及入住预订注意事项。">
+<meta name="keywords" content="肥东双龙商务大酒店,肥东酒店,肥东商务酒店,肥东住宿,肥东宴会酒店,合肥肥东会议酒店">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --gold:#b8894a;
+    --gold-light:#d9b382;
+    --deep:#1d2733;
+    --deep-2:#2a3746;
+    --bg:#f6f3ee;
+    --card:#ffffff;
+    --text:#2b2f36;
+    --muted:#6d7684;
+    --line:#e6e0d6;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.75;
+    font-size:16px;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;}
+  .wrap{
+    width:100%;
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+
+  /* 顶部信息条 */
+  .topbar{
+    background:var(--deep);
+    color:#cfd6de;
+    font-size:13px;
+  }
+  .topbar .wrap{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 24px;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+  .topbar span strong{color:var(--gold-light);font-weight:600;}
+
+  /* 页眉 */
+  header.site-head{
+    background:linear-gradient(180deg,#ffffff 0%,#fdfbf8 100%);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:50;
+    box-shadow:0 2px 10px rgba(29,39,51,.05);
+  }
+  .head-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding-top:14px;
+    padding-bottom:14px;
+    flex-wrap:wrap;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .brand-mark{
+    width:46px;height:46px;
+    border-radius:8px;
+    background:linear-gradient(135deg,var(--gold) 0%,#8f6a34 100%);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;font-weight:700;
+    letter-spacing:1px;
+    flex:0 0 auto;
+  }
+  .brand-text b{
+    display:block;
+    font-size:19px;
+    color:var(--deep);
+    letter-spacing:.5px;
+  }
+  .brand-text small{
+    display:block;
+    font-size:12px;
+    color:var(--muted);
+    letter-spacing:2px;
+  }
+  nav.main-nav ul{
+    display:flex;
+    list-style:none;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  nav.main-nav a{
+    display:block;
+    padding:8px 14px;
+    font-size:15px;
+    color:var(--deep-2);
+    border-radius:6px;
+    transition:.2s;
+  }
+  nav.main-nav a:hover{
+    background:#f0e9dd;
+    color:var(--gold);
+  }
+  .head-cta{
+    display:inline-block;
+    padding:9px 20px;
+    background:var(--gold);
+    color:#fff;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:.5px;
+    transition:.2s;
+  }
+  .head-cta:hover{background:#a3763c;}
+
+  /* 首屏 */
+  .hero{
+    background:
+      radial-gradient(circle at 15% 20%,rgba(184,137,74,.18),transparent 55%),
+      linear-gradient(160deg,#1d2733 0%,#2a3746 60%,#334356 100%);
+    color:#eef2f6;
+    padding:64px 0 56px;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.15fr .85fr;
+    gap:44px;
+    align-items:center;
+  }
+  .hero h1{
+    font-size:34px;
+    line-height:1.35;
+    letter-spacing:1px;
+    margin-bottom:16px;
+    color:#fff;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--gold-light);
+  }
+  .hero p.lead{
+    font-size:16px;
+    color:#c8d1db;
+    max-width:640px;
+    margin-bottom:26px;
+  }
+  .hero-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:28px;
+  }
+  .hero-tags span{
+    font-size:13px;
+    padding:5px 13px;
+    border:1px solid rgba(217,179,130,.45);
+    color:var(--gold-light);
+    border-radius:20px;
+  }
+  .hero-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  .btn-primary,.btn-ghost{
+    display:inline-block;
+    padding:12px 26px;
+    border-radius:6px;
+    font-size:15px;
+    font-weight:600;
+    transition:.2s;
+  }
+  .btn-primary{
+    background:var(--gold);
+    color:#fff;
+  }
+  .btn-primary:hover{background:#a3763c;}
+  .btn-ghost{
+    border:1px solid rgba(255,255,255,.4);
+    color:#eef2f6;
+  }
+  .btn-ghost:hover{background:rgba(255,255,255,.1);}
+  .hero-panel{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(217,179,130,.28);
+    border-radius:var(--radius);
+    padding:26px 24px;
+    backdrop-filter:blur(2px);
+  }
+  .hero-panel h3{
+    font-size:16px;
+    color:var(--gold-light);
+    margin-bottom:16px;
+    letter-spacing:1px;
+    font-weight:600;
+  }
+  .hero-panel dl{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:10px 14px;
+    font-size:14px;
+  }
+  .hero-panel dt{color:#9fabb8;}
+  .hero-panel dd{color:#eef2f6;}
+
+  /* 通用区块 */
+  section.block{
+    padding:56px 0;
+  }
+  section.block.alt{
+    background:#fff;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .sec-head{
+    margin-bottom:34px;
+    max-width:820px;
+  }
+  .sec-head .eyebrow{
+    display:inline-block;
+    font-size:12px;
+    letter-spacing:3px;
+    color:var(--gold);
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .sec-head h2{
+    font-size:25px;
+    color:var(--deep);
+    line-height:1.45;
+    margin-bottom:12px;
+    position:relative;
+    padding-left:16px;
+  }
+  .sec-head h2::before{
+    content:"";
+    position:absolute;
+    left:0;top:8px;
+    width:5px;height:22px;
+    background:var(--gold);
+    border-radius:3px;
+  }
+  .sec-head p{
+    color:var(--muted);
+    font-size:15px;
+  }
+
+  /* 房型卡片 */
+  .room-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .room-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 22px;
+    transition:.25s;
+    display:flex;
+    flex-direction:column;
+  }
+  .room-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 14px 30px rgba(29,39,51,.1);
+    border-color:var(--gold-light);
+  }
+  .room-card .tag{
+    align-self:flex-start;
+    font-size:12px;
+    color:var(--gold);
+    border:1px solid var(--gold-light);
+    padding:2px 10px;
+    border-radius:20px;
+    margin-bottom:14px;
+  }
+  .room-card h3{
+    font-size:18px;
+    color:var(--deep);
+    margin-bottom:10px;
+  }
+  .room-card p{
+    font-size:14px;
+    color:var(--muted);
+    margin-bottom:16px;
+    flex:1;
+  }
+  .room-card ul{
+    list-style:none;
+    font-size:13.5px;
+    color:var(--deep-2);
+  }
+  .room-card ul li{
+    padding:5px 0 5px 18px;
+    position:relative;
+    border-top:1px dashed var(--line);
+  }
+  .room-card ul li:first-child{border-top:none;}
+  .room-card ul li::before{
+    content:"";
+    position:absolute;
+    left:2px;top:14px;
+    width:6px;height:6px;
+    border-radius:50%;
+    background:var(--gold-light);
+  }
+
+  /* 服务模块 */
+  .service-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+  }
+  .service-item{
+    background:#fff;
+    border-radius:var(--radius);
+    padding:24px 20px;
+    border:1px solid var(--line);
+    text-align:left;
+  }
+  .service-item .num{
+    font-size:13px;
+    font-weight:700;
+    color:var(--gold);
+    letter-spacing:2px;
+    margin-bottom:12px;
+  }
+  .service-item h3{
+    font-size:17px;
+    color:var(--deep);
+    margin-bottom:10px;
+  }
+  .service-item p{
+    font-size:14px;
+    color:var(--muted);
+  }
+
+  /* 宴会会议 双栏 */
+  .split{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+    align-items:start;
+  }
+  .split h3{
+    font-size:19px;
+    color:var(--deep);
+    margin-bottom:14px;
+    padding-bottom:10px;
+    border-bottom:2px solid var(--gold-light);
+    display:inline-block;
+  }
+  .split p{
+    font-size:15px;
+    color:var(--text);
+    margin-bottom:14px;
+  }
+  .check-list{
+    list-style:none;
+    margin-top:6px;
+  }
+  .check-list li{
+    position:relative;
+    padding:7px 0 7px 26px;
+    font-size:14.5px;
+    color:var(--deep-2);
+    border-bottom:1px dashed var(--line);
+  }
+  .check-list li::before{
+    content:"✓";
+    position:absolute;
+    left:0;top:7px;
+    color:var(--gold);
+    font-weight:700;
+  }
+
+  /* 位置信息 */
+  .loc-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:34px;
+    align-items:start;
+  }
+  .loc-list{
+    list-style:none;
+  }
+  .loc-list li{
+    display:flex;
+    gap:14px;
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+    font-size:14.5px;
+  }
+  .loc-list li strong{
+    flex:0 0 96px;
+    color:var(--deep);
+    font-weight:600;
+  }
+  .loc-list li span{color:var(--muted);}
+  .loc-note{
+    background:#fbf8f3;
+    border-left:4px solid var(--gold);
+    padding:18px 20px;
+    border-radius:0 8px 8px 0;
+    font-size:14px;
+    color:var(--deep-2);
+  }
+  .loc-note b{color:var(--gold);}
+
+  /* 入住须知 */
+  .tips-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .tip-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 20px;
+  }
+  .tip-card h3{
+    font-size:16px;
+    color:var(--deep);
+    margin-bottom:10px;
+  }
+  .tip-card p{
+    font-size:14px;
+    color:var(--muted);
+  }
+
+  /* FAQ */
+  .faq-list{
+    max-width:900px;
+  }
+  .faq-item{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    margin-bottom:14px;
+    overflow:hidden;
+  }
+  .faq-item h3{
+    font-size:16px;
+    color:var(--deep);
+    padding:18px 22px;
+    cursor:pointer;
+    position:relative;
+    font-weight:600;
+    padding-right:52px;
+  }
+  .faq-item h3::after{
+    content:"+";
+    position:absolute;
+    right:22px;top:50%;
+    transform:translateY(-50%);
+    font-size:20px;
+    color:var(--gold);
+    font-weight:400;
+    transition:.25s;
+  }
+  .faq-item.open h3::after{
+    content:"−";
+  }
+  .faq-item .answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .3s ease;
+  }
+  .faq-item .answer p{
+    padding:0 22px 20px;
+    font-size:14.5px;
+    color:var(--muted);
+    border-top:1px dashed var(--line);
+    padding-top:16px;
+  }
+
+  /* 页脚 */
+  footer.site-foot{
+    background:var(--deep);
+    color:#a9b4c1;
+    padding:48px 0 22px;
+    font-size:14px;
+  }
+  .foot-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:34px;
+    padding-bottom:30px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+  }
+  .foot-grid h4{
+    color:#fff;
+    font-size:15px;
+    margin-bottom:14px;
+    letter-spacing:1px;
+  }
+  .foot-grid p{
+    font-size:13.5px;
+    line-height:1.9;
+    color:#8e9aa8;
+  }
+  .foot-grid ul{
+    list-style:none;
+  }
+  .foot-grid ul li{
+    padding:5px 0;
+    font-size:13.5px;
+  }
+  .foot-grid ul li a:hover{color:var(--gold-light);}
+  .foot-bottom{
+    padding-top:20px;
+    text-align:center;
+    font-size:13px;
+    color:#7c8794;
+  }
+
+  /* 响应式 */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .room-grid{grid-template-columns:repeat(2,1fr);}
+    .service-grid{grid-template-columns:repeat(2,1fr);}
+    .split{grid-template-columns:1fr;gap:28px;}
+    .loc-grid{grid-template-columns:1fr;gap:26px;}
+    .tips-grid{grid-template-columns:repeat(2,1fr);}
+    .foot-grid{grid-template-columns:1fr 1fr;gap:26px;}
+  }
+  @media (max-width:640px){
+    body{font-size:15px;}
+    .hero{padding:44px 0 40px;}
+    .hero h1{font-size:25px;}
+    .head-inner{justify-content:center;text-align:center;}
+    nav.main-nav ul{justify-content:center;}
+    .room-grid{grid-template-columns:1fr;}
+    .service-grid{grid-template-columns:1fr;}
+    .tips-grid{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;}
+    .sec-head h2{font-size:21px;}
+    section.block{padding:40px 0;}
+    .hero-panel dl{grid-template-columns:1fr;gap:4px 0;}
+    .hero-panel dt{margin-top:8px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>肥东本地商务住宿 · 会议宴会 · 餐饮停车</span>
+    <span>到店前请先<strong>电话确认房态与宴会档期</strong></span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <div class="brand-mark">双龙</div>
+      <div class="brand-text">
+        <b>肥东双龙商务大酒店</b>
+        <small>SHUANGLONG BUSINESS HOTEL</small>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <ul>
+        <li><a href="#rooms">房型住宿</a></li>
+        <li><a href="#service">酒店服务</a></li>
+        <li><a href="#banquet">宴会会议</a></li>
+        <li><a href="#location">交通位置</a></li>
+        <li><a href="#tips">入住须知</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+    <a class="head-cta" href="#location">到店咨询</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>肥东双龙商务大酒店<br><em>商务出行与宴请聚会的本地落脚点</em></h1>
+        <p class="lead">
+          肥东双龙商务大酒店是一家面向商务出差、探亲访友、婚宴喜宴与中小型会议需求的服务型酒店。
+          如果你正在搜索肥东住宿、肥东商务酒店或肥东宴会场地，本页把房型选择、服务内容、交通位置和入住注意事项整理在一起，
+          帮助你判断这家酒店是否适合自己的行程。
+        </p>
+        <div class="hero-tags">
+          <span>商务客房</span>
+          <span>会议接待</span>
+          <span>婚宴喜宴</span>
+          <span>餐饮包间</span>
+          <span>停车便利</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#rooms">查看房型说明</a>
+          <a class="btn-ghost" href="#faq">了解预订问题</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <h3>快速了解这家酒店</h3>
+        <dl>
+          <dt>酒店类型</dt><dd>商务型综合酒店</dd>
+          <dt>所在区域</dt><dd>安徽省合肥市肥东县</dd>
+          <dt>主要客群</dt><dd>商务出差、探亲、宴请宾客</dd>
+          <dt>核心功能</dt><dd>住宿 · 餐饮 · 会议 · 宴会</dd>
+          <dt>建议动作</dt><dd>入住或办宴前先电话确认</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 房型 -->
+  <section class="block" id="rooms">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">ROOMS &amp; STAY</span>
+        <h2>房型与住宿：按出行目的选房间</h2>
+        <p>
+          商务酒店的房间通常按床型、面积和入住人数区分。不同酒店的实际房型名称、面积和配置会有差异，
+          以下按常见类型说明适用场景，具体以酒店前台当日提供的房态为准。
+        </p>
+      </div>
+      <div class="room-grid">
+        <article class="room-card">
+          <span class="tag">单人出差</span>
+          <h3>商务大床房</h3>
+          <p>适合一人出差或短途办事，一张大床加书桌，方便处理文件和简单办公，是商务客人选择较多的房型。</p>
+          <ul>
+            <li>适合 1 人入住</li>
+            <li>关注点：书桌、网络、安静程度</li>
+            <li>建议：提前说明需要安静楼层</li>
+          </ul>
+        </article>
+        <article class="room-card">
+          <span class="tag">结伴出行</span>
+          <h3>标准双床房</h3>
+          <p>两张单人床，适合同事同行、亲友结伴或带长辈出行，入住人数和行李摆放都更从容。</p>
+          <ul>
+            <li>适合 2 人入住</li>
+            <li>关注点：床宽、卫生间布局</li>
+            <li>建议：确认是否可加床</li>
+          </ul>
+        </article>
+        <article class="room-card">
+          <span class="tag">家庭探亲</span>
+          <h3>家庭房 / 套房</h3>
+          <p>空间相对宽裕，适合带小孩的家庭或需要会客的客人，部分房型带独立会客区域，方便接待来访亲友。</p>
+          <ul>
+            <li>适合 2 至 3 人</li>
+            <li>关注点：面积、会客区、加床政策</li>
+            <li>建议：节假日尽早预订</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 服务 -->
+  <section class="block alt" id="service">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SERVICES</span>
+        <h2>酒店服务：住宿之外还能做什么</h2>
+        <p>商务酒店的价值不只在房间，还在于能否同时解决吃饭、开会、停车和接待这几件事。</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-item">
+          <div class="num">01</div>
+          <h3>客房住宿</h3>
+          <p>提供日常客房服务、洗漱用品补给与基础清洁，长住客人可提前沟通打扫频次。</p>
+        </div>
+        <div class="service-item">
+          <div class="num">02</div>
+          <h3>餐饮宴请</h3>
+          <p>设有餐饮区域，可承接日常用餐、家庭聚餐和喜宴包席，菜品与桌数需提前沟通。</p>
+        </div>
+        <div class="service-item">
+          <div class="num">03</div>
+          <h3>会议接待</h3>
+          <p>面向小型会议、培训、答谢活动提供场地与基础会务支持，设备需求建议事先确认。</p>
+        </div>
+        <div class="service-item">
+          <div class="num">04</div>
+          <h3>停车与前台</h3>
+          <p>提供前台咨询、行李寄存与停车指引，自驾客人可在到店前询问车位情况。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 宴会会议 -->
+  <section class="block" id="banquet">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">BANQUET &amp; MEETING</span>
+        <h2>宴会与会议：把流程提前定清楚</h2>
+        <p>在肥东办婚宴、寿宴或公司会议，场地、桌数、时间和菜单是四件必须先确认的事。</p>
+      </div>
+      <div class="split">
+        <div>
+          <h3>婚宴 · 喜宴 · 家宴</h3>
+          <p>
+            本地宴请讲究档期和桌数，尤其是节假日与农历吉日，场地往往提前较长时间被预订。
+            建议先确定大致日期和宾客人数区间，再与酒店确认大厅或包间的可用情况。
+          </p>
+          <ul class="check-list">
+            <li>确认宴会厅可容纳桌数与最低起订桌数</li>
+            <li>了解菜单档位、是否可调整菜品</li>
+            <li>问清自带酒水、服务费等附加规则</li>
+            <li>确认布置时间、音响与投影是否可用</li>
+            <li>提前约定定金、改期与取消的处理方式</li>
+          </ul>
+        </div>
+        <div>
+          <h3>商务会议 · 培训 · 答谢会</h3>
+          <p>
+            中小型会议更看重安静、座位布局和设备稳定性。会议与住宿、用餐打包安排，通常比分开预订更省事。
+          </p>
+          <ul class="check-list">
+            <li>按人数选择课桌式、回字式或圆桌式布局</li>
+            <li>提前测试投影、话筒与网络</li>
+            <li>确认茶歇、午餐的供应时间与形式</li>
+            <li>为外地参会人员预留房间</li>
+            <li>确认签到区、指示牌等现场支持</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 位置 -->
+  <section class="block alt" id="location">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">LOCATION</span>
+        <h2>交通与位置：出发前先确认路线</h2>
+        <p>肥东位于合肥东部，酒店具体门牌与最近出入口建议以酒店确认为准，导航时直接搜索酒店全名更稳妥。</p>
+      </div>
+      <div class="loc-grid">
+        <ul class="loc-list">
+          <li><strong>所在区域</strong><span>安徽省合肥市肥东县，属合肥东部城区范围</span></li>
+          <li><strong>自驾到店</strong><span>导航搜索“肥东双龙商务大酒店”，到店前可询问停车入口与车位情况</span></li>
+          <li><strong>公共交通</strong><span>可结合合肥轨道交通与肥东方向公交线路规划，具体换乘以实时查询为准</span></li>
+          <li><strong>周边出行</strong><span>适合前往肥东县城办事、探亲访友及合肥市区往返的客人</span></li>
+          <li><strong>接送说明</strong><span>如需接送或代叫车辆，建议提前与前台沟通是否可协助安排</span></li>
+        </ul>
+        <div class="loc-note">
+          <p><b>小提示：</b>酒店名称、门牌地址、电话与营业状态可能随时间调整。出发前通过地图软件或电话再次核对，
+          尤其是夜间到店、携带大件行李或带老人小孩同行时，提前确认能省去不少麻烦。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 入住须知 -->
+  <section class="block" id="tips">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">BEFORE YOU GO</span>
+        <h2>入住与预订须知</h2>
+        <p>把下面几件事提前问清楚，入住和办宴都会顺利很多。</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <h3>关于预订</h3>
+          <p>旺季、节假日和周末房态紧张，建议提前预订并保留确认信息。若行程可能变动，先问清改期与取消规则。</p>
+        </div>
+        <div class="tip-card">
+          <h3>关于入住</h3>
+          <p>通常需凭本人有效身份证件办理登记，一人一证。到店时间较早时，可先询问能否提前办理或寄存行李。</p>
+        </div>
+        <div class="tip-card">
+          <h3>关于费用</h3>
+          <p>房价、餐费、宴会桌价与附加费用会随房型、档期和菜单变化，以下单时酒店确认的报价为准。</p>
+        </div>
+        <div class="tip-card">
+          <h3>关于房间</h3>
+          <p>对楼层、朝向、床型有偏好，可在预订时备注。临街房间可能较吵，介意的话提前说明。</p>
+        </div>
+        <div class="tip-card">
+          <h3>关于宴请</h3>
+          <p>确定桌数后留出一定余量，避免临时加桌无位。菜单、酒水和布置需求尽量提前书面确认。</p>
+        </div>
+        <div class="tip-card">
+          <h3>关于发票</h3>
+          <p>需要发票的客人，建议在入住或结账时提前告知开票信息，避免离店后再补办。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block alt" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>常见问题</h2>
+        <p>以下是搜索“肥东双龙商务大酒店”时较常被问到的问题。</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>肥东双龙商务大酒店主要提供哪些服务？</h3>
+          <div class="answer">
+            <p>从名称和定位看，这是一家商务型酒店，通常以客房住宿为主，同时配套餐饮、会议或宴会场地等。具体提供哪些服务、是否有停车场和会议室，建议直接向酒店确认，以免与预期不符。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>适合商务出差入住吗？</h3>
+          <div class="answer">
+            <p>商务酒店一般会考虑出差客人的需求，例如书桌、网络和相对安静的楼层。如果你对办公条件有明确要求，预订时可以直接说明用途，请前台推荐合适的房型。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>可以在酒店办婚宴或公司会议吗？</h3>
+          <div class="answer">
+            <p>不少本地商务酒店会承接婚宴、寿宴和中小型会议。能否承接取决于当日档期、场地容量和设备条件，建议提前联系，说明日期、人数和具体需求后再做决定。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>怎么确认房价和宴会价格？</h3>
+          <div class="answer">
+            <p>价格会随房型、季节、档期和菜单档位变化，网上信息只能作为参考。最稳妥的方式是直接联系酒店，说明入住日期或宴会日期，获取当日报价与可预订情况。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>自驾过去方便吗？</h3>
+          <div class="answer">
+            <p>肥东区域内自驾相对方便，导航搜索酒店全名即可。停车位数量、是否收费以及入口位置，建议到店前电话询问，节假日车位可能比较紧张。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>带老人或小孩入住要注意什么？</h3>
+          <div class="answer">
+            <p>可以提前说明同行情况，请酒店安排低楼层或靠近电梯的房间；如需加床、婴儿床或额外洗漱用品，也建议在预订时一并提出，方便酒店提前准备。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>肥东双龙商务大酒店</h4>
+        <p>
+          面向肥东本地及往来合肥的商务、探亲和宴请客人，提供住宿、餐饮、会议与宴会等综合服务。
+          本页为信息整理与选店参考，具体房态、价格与服务内容请以酒店实际确认为准。
+        </p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#rooms">房型与住宿</a></li>
+          <li><a href="#service">酒店服务</a></li>
+          <li><a href="#banquet">宴会与会议</a></li>
+          <li><a href="#location">交通与位置</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>到店前建议</h4>
+        <ul>
+          <li>电话确认当日房态</li>
+          <li>宴会提前确认档期与桌数</li>
+          <li>自驾客人询问车位情况</li>
+          <li>携带本人有效身份证件</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      © 肥东双龙商务大酒店信息页 · 内容仅供参考，请以酒店官方确认信息为准
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var items = document.querySelectorAll('.faq-item');
+    items.forEach(function(item){
+      var title = item.querySelector('h3');
+      var answer = item.querySelector('.answer');
+      title.addEventListener('click', function(){
+        var isOpen = item.classList.contains('open');
+        items.forEach(function(other){
+          other.classList.remove('open');
+          var a = other.querySelector('.answer');
+          if(a){ a.style.maxHeight = null; }
+        });
+        if(!isOpen){
+          item.classList.add('open');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+  </html>
